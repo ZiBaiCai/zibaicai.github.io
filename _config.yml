@@ -8,18 +8,18 @@ markdown: kramdown
 highlighter: rouge
 
 plugins: [jekyll-paginate]
-paginate: 20
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+paginate: 10
+domain_name: 'zibaicai.com'
+# google_analytics: 'UA-XXXXXXXX-X'
+# disqus: false
+# disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'https://zibaicai.com'
+author:         '紫白菜'
+# authorTwitter:  'YourTwitterUsername'
 
-permalink:       /:year/:title/
+permalink:       /:title.html
 
 defaults:
     -
